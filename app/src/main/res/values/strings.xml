@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BangkokUnitrade</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_Logout">Logout</string>
+    <string name="action_Next">ต่อไป</string>
+    <string name="indication">INDICATION</string>
+
+    <!-- list Sale and Product Activity -->
+    <string name="list">รายการ</string>
+    <string name="setcase">สั่งชุดเครื่องมือ</string>
+    <string name="checkcase">ตรวจสอบสถานะเครื่องมือ</string>
+    <string name="quotation">ใบเสนอราคา</string>
+    <string name="report">บันทึกรายงาน</string>
+    <string name="catalog">แคตตาล็อก</string>
+    <string name="checkstatuscase">สถานะเข้าเคส</string>
+
+    <string-array name="list_array">
+        <item>@string/setcase</item>
+        <item>@string/checkcase</item>
+        <item>@string/quotation</item>
+        <item>@string/report</item>
+        <item>@string/catalog</item>
+    </string-array>
+
+    <!-- setCaseImplantActivity -->
+    <string name="TAB1">BODY</string>
+    <string name="TAB2">LIST</string>
+    <string name="headerRadioRatio">ตำแหน่ง</string>
+    <string name="headerRadioBorrow">เหตุผลการยืม</string>
+    <string name="headerRadioCase">ต้องการคนเข้าเคสหรือไม่</string>
+    <string name="headerRadioTools">ต้องการจองชุดเครื่องมือหรือไม่</string>
+    <string name="headerRadioToolsMore">รายการเครื่องมือเพิ่มเติม</string>
+    <string name="RadiocaseY">ต้องการ</string>
+    <string name="RadiocaseN">ไม่ต้องการ</string>
+    <string name="RadioToolsY">ต้องการจอง</string>
+    <string name="RadioToolsN">ไม่ต้องการจอง</string>
+    <string name="RadioToolsZ">โอนเครื่องมือ</string>
+    <string name="RadiocaseLeft">Left</string>
+    <string name="RadiocaseRight">Right</string>
+    <string name="RadiocaseBoth">Both</string>
+    <string name="RadiocaseNotspecific">Not specific</string>
+    <string name="Radiocasereason1">ยืมเพื่อดู</string>
+    <string name="Radiocasereason2">ยืมเพื่อเลือกใช้</string>
+    <string name="Radiocasereason3">ยืมเพื่อซื้อ</string>
+    <string name="Radiocasereason4">ยืมเพื่อวางประจำ</string>
+
+    <!-- setCaseDetailActivity -->
+    <string name="patient">ชื่อคนไข้</string>
+    <string name="HN">HN</string>
+    <string name="Hospital">โรงพยาบาล</string>
+    <string name="Doctor">แพทย์</string>
+    <string name="DoctorPoint">ระบุแพทย์</string>
+    <string name="SurgeryDate">วันที่ผ่าตัด</string>
+    <string name="SurgeryTime">เวลาผ่าตัด</string>
+    <string name="RequireDate">วันที่ส่ง/วันที่ต้องการ</string>
+    <string name="RequireTime">เวลาที่ส่ง/เวลาต้องการ</string>
+    <string name="betweenDate">ช่วงวันที่</string>
+    <string name="typeTransport">การจัดส่งเครื่องมือ</string>
+    <string name="headDoctorTools">เครื่องมือเฉพาะแพทย์</string>
+    <string name="transpotstatus">สถานะการจัดส่ง</string>
+
+
+    <!-- CheckCaseImplantActivity -->
+    <string name="RadiocheckTool">ชุดเครื่องมือ</string>
+    <string name="RadiocheckImplant">implant</string>
+    <string name="btncheck">ตรวจสอบ</string>
+
+    <!-- QuotateActivity -->
+    <string name="spinnerHospital">โรงพยาบาล</string>
+    <string name="spinnerImplant">implant</string>
+    <string name="spinnerUser">เขตความรับผิดชอบ</string>
+    <string name="Quotate">ดึงราคา</string>
+    <string name="QuotateHeader">ใบเสนอราคาชุด implant</string>
+
+    <!-- QuotateActivity -->
+    <string name="btncreatReport">สร้างรายงาน</string>
+
+    <!-- CatalogSendEmailActivity -->
+    <string name="headerCatalog">หัวข้อเรื่อง</string>
+
+    <!-- StatusCaseActivity -->
+    <string name="btnStatusCase">สร้างเคสใหม่</string>
+    <string name="headerStatusCase">ขอคนเข้าเคส</string>
+    <string name="listStatusCase">รายการเข้าเคส</string>
+    <string name="EndCase">จบเคส</string>
+
+    <!-- TramuaAddctivity -->
+    <string name="textHeadAdd">PLATES AND SCREWS</string>
+
+</resources>
